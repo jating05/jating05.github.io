@@ -1,0 +1,297 @@
+body {
+  margin: 0px;
+}
+
+#body_header {
+  height: 65vh;
+  background-image: url(image/macbook_mouse.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Header Section */
+#header_navigation {
+  margin: 0px;
+  list-style: none;
+  padding-left: 0px;
+}
+#header_navigation li {
+  color: white;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0px 8px 8px 0px;
+}
+.horizontal_list li {
+  color: white;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0px 8px 8px 0px;
+}
+#header_navigation li a:hover {
+  color: rgb(238, 230, 230);
+  font-size: 1.5rem;
+  border-bottom: 2px solid white;
+
+  /* transition: border 0.5s; */
+}
+#header_navigation a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s;
+  transition: font-size 0.2s;
+}
+.text_align {
+  text-align: center;
+  /* margin: auto; */
+}
+
+#my_name {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.social_icons li a i {
+  /* margin-right: 10px; */
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  /* border: 2px solid white; */
+}
+.social_icons li a i:hover {
+  box-shadow: 0px 0px 60px 10px white;
+}
+.profile_pic {
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -6rem;
+  position: relative;
+}
+.profile_pic img {
+  height: 100%;
+  width: 100%;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 1px black;
+}
+.about_bio {
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.5rem;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 370;
+  color: rgb(68, 66, 63);
+  letter-spacing: 2px;
+}
+#skill_section {
+  background-color: lightgray;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.section_heading {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.code_skill {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-around;
+}
+.progress_box {
+  height: 2.5rem;
+  width: 14rem;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  background-color: rgb(158, 157, 157);
+  opacity: 70%;
+}
+.progress_bar {
+  height: inherit;
+  width: 80%;
+  /* padding: 2px; */
+  border-radius: 23px 10px 10px 23px;
+  background-color: blue;
+  /* overflow: hidden; */
+}
+.text_progress_bar {
+  text-align: left;
+  padding: 10px 0px 0px 10px;
+  font-size: 1.2rem;
+  font-family: "Urbanist", sans-serif;
+  color: white;
+  font-weight: 600;
+  transition: all 0s ease 2s;
+}
+/* Hovering material */
+.progress_box:hover {
+  height: 2.7rem;
+  width: 15rem;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  background-color: rgb(158, 157, 157);
+  opacity: 70%;
+}
+
+/* Hovering material ends here */
+.experience_big_box {
+  /* border: 2px solid black; */
+  width: 70%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.experience_elements {
+  /* border: 2px solid black; */
+  width: 35%;
+  height: 250px;
+  /* margin: auto; */
+  margin-top: 10px;
+  position: relative;
+  left: 10%;
+}
+.experience_elements:nth-child(2n) {
+  /* position: relative; */
+  left: 55%;
+}
+.experience_elements_heading {
+  width: 100%;
+  height: 25%;
+  margin: 1px;
+  /* border: 1px solid orange; */
+  display: flex;
+  flex-direction: row;
+}
+.school_box_icon {
+  width: 30%;
+  height: 100%;
+  margin: 0px 0px 2px 0px;
+  padding: 2px;
+  box-sizing: border-box;
+  /* margin: auto; */
+  /* border: 1px solid black; */
+  /* display: inline-block; */
+}
+.school_box_icon h1 {
+  font-size: 3rem;
+  margin: auto;
+  margin-top: 3px;
+  color: rgb(243, 132, 42);
+}
+
+.school_box_title {
+  text-align: right;
+  width: 100%;
+  height: 100%;
+  padding: 3px 5px 0px 10px;
+  font-size: 2.5rem;
+  font-family: "Urbanist", sans-serif;
+  color: rgb(0, 20, 110);
+  font-weight: 600;
+  margin: 0px 0px 0px 0px;
+  /* border: 2px solid black; */
+  /* position: relative; */
+}
+
+.school_box {
+  width: 100%;
+  height: 70%;
+  text-align: right;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 10px 15px;
+  /* margin: auto; */
+  /* border: 2px solid rgb(165, 175, 27); */
+  box-sizing: border-box;
+}
+
+.school_box h1 {
+  font-size: 1.5rem;
+  font-family: "Urbanist", sans-serif;
+  color: rgb(252, 131, 50);
+  font-weight: 600;
+  margin: 0%;
+}
+
+.section_divider {
+  width: 0px;
+  height: 80%;
+  border: 2px dashed lightgray;
+  position: absolute;
+  left: 50%;
+  margin-top: 10%;
+  padding: 0px;
+}
+.section_traveller {
+  position: sticky;
+  top: 25%;
+  transform: rotate(90deg);
+  font-size: 2rem;
+  margin: 0px;
+  color: rgb(202, 140, 26);
+}
+.contact_us {
+  width: 100%;
+  height: auto;
+}
+.contact_us_div {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(45deg, rgb(0, 0, 172), black);
+}
+.contact_us_box {
+  padding-top: 20px;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  /* border: 2px solid black; */
+}
+.form div {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+.form_1 {
+  width: 40%;
+  height: auto;
+  /* border: 2px solid white; */
+  padding: 30px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.form_label {
+  font-size: 2rem;
+  font-family: "Urbanist", sans-serif;
+  color: rgb(255, 187, 97);
+  font-weight: 600;
+}
+.form_input {
+  background: transparent;
+  margin-bottom: 30px;
+  /* border: 0px 0px 2px 0px; */
+  text-decoration: none;
+  font-size: 1.7rem;
+}
